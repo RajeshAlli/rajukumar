@@ -14,8 +14,8 @@ terraform {
 
 terraform {
     backend "s3" {
-      bucket = "terra-sree1"
-      key    = "raju/terraform.tfstate"
+      bucket = "aalli"
+      key    = "rajesh/terraform.tfstate"
       region = "us-east-1"
     }
   }
