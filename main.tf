@@ -12,13 +12,13 @@ terraform {
   }
 }
 
-terraform {
-    backend "s3" {
-      bucket = "terra-sree1"
-      key    = "raju/terraform.tfstate"
-      region = "us-east-1"
-    }
-  }
+#terraform {
+ #   backend "s3" {
+  #    bucket = "terra-sree1"
+   #   key    = "raju/terraform.tfstate"
+   #   region = "us-east-1"
+    #}
+  #}
 
 provider "aws" {
 #  profile = "default" # aws credential in $HOME/.aws/credentials
